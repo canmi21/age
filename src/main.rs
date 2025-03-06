@@ -51,5 +51,5 @@ fn main() {
         .trim()
         .to_string();
 
-    println!("Archlinux@{} {} already installed {}.", username, kernel, output);
+    println!("Archlinux@{} {} has been installed for {}.", username, kernel, output);
 }
